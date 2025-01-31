@@ -177,9 +177,6 @@ void generarRecomendaciones(Zona zonas[], int numZonas) {
 }
 
 // Función para guardar los datos en un archivo de texto
-#include <stdio.h>
-#include "funciones.h"
-
 void exportarReporte(Zona zonas[], int numZonas, const char *archivo) {
     // Abrir el archivo en modo "a" (append) para agregar los datos al final sin sobrescribir
     FILE *file = fopen(archivo, "a");
